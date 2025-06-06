@@ -1,6 +1,6 @@
 # transcripnomics
 project transcripnomics
-
+# Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige herkenning van reumatoïde artritis
 Hier komt mijn fantastische tekst
 
 ## 📁 Inhoud/structuur
