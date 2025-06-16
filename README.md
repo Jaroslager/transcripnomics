@@ -1,11 +1,9 @@
-# transcripnomics
-project transcripnomics
-# Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige herkenning van reumatoïde artritis
-Hier komt mijn fantastische tekst
+# Project transcripnomics J2P4
+Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige herkenning van reumatoïde artritis
 
 ## 📁 Inhoud/structuur
 
-- `data/raw/` – fictionele datasets voor de analyse van spreuk effectiviteit, gevaar en welke spreuken het beste samengaan met verschillende types staf.  
+- `data/raw/` – lol 
 - `data/processed` - verwerkte datasets gegenereerd met scripts 
 - `scripts/` – scripts om prachtige onzin te genereren
 - `resultaten/` - grafieken en tabellen
