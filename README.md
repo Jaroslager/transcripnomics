@@ -17,15 +17,15 @@ Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige 
 
 Reumatoïde artritis (RA) is een chronische, auto-immuunziekte die ontsteking veroorzaakt in gewrichten en kan leiden tot kraakbeen- en botbeschadiging. Symptomen zijn onder andere pijn, stijfheid en zwelling, met name bij seropositieve patiënten die auto-antilichamen zoals reumafactor (RF) en anti-CCP hebben. Seropositiviteit onderstreept het auto-immuunkarakter, maar verklaart niet volledig waarom RA ontstaat. [(bron.)](Bronnen/Immunopathogenesis-of-rheumatoid-arthritis.pdf)
 
-Genetische factoren spelen een belangrijke rol bij het ontstaan van RA. Erfelijkheid heeft invloed op het risico om de ziekte te ontwikkelen, waarbij bij seropositieve RA genetische aanleg vaak een grotere rol speelt dan bij seronegatieve RA. Daarnaast kunnen omgevingsfactoren, zoals roken, infecties en blootstelling aan chemische stoffen, het risico verhogen door het immuunsysteem te beïnvloeden.
+Genetische factoren spelen een belangrijke rol bij het ontstaan van RA. Erfelijkheid heeft invloed op het risico om de ziekte te ontwikkelen, waarbij bij seropositieve RA genetische aanleg vaak een grotere rol speelt dan bij seronegatieve RA. Daarnaast kunnen omgevingsfactoren, zoals roken, infecties en blootstelling aan chemische stoffen, het risico verhogen door het immuunsysteem te beïnvloeden. [(bron.)](Bronnen/Genetics-of-rheumatiod-arthritis.pdf)
 
-Een vroege diagnose is essentieel om blijvende gewrichtsschade te voorkomen, maar huidige methoden herkennen vaak pas ontsteking als deze al sterk aanwezig is. Behandeling richt zich op het onderdrukken van symptomen en ontsteking, maar biedt geen genezing.
+Een vroege diagnose is essentieel om blijvende gewrichtsschade te voorkomen, maar huidige methoden herkennen vaak pas ontsteking als deze al sterk aanwezig is. Behandeling richt zich op het onderdrukken van symptomen en ontsteking, maar biedt geen genezing. [(bron.)](Bronnen/Management-of-RA-An-overview.pdf)
 
 Om meer kennis over RA te ontwikkelen en uiteindelijk tot vroegere diagnose en behandeling te komen wordt er transcriptomics in dit onderzoek. Hiermee wordt bepaald welke genen afwijkend tot expressie komen bij RA-patiënten en welke metabole routes anders functioneren.
 
 ## Methode
 
-In dit onderzoek werden RNA-seq data geanalyseerd van synoviumbiopten afkomstig van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier gezonde controles (ACPA-negatief), gebaseerd op de dataset van Platzer et al. (2019). De ruwe sequencingdata werden uitgepakt en ingelezen in R.
+In dit onderzoek werden RNA-seq data geanalyseerd van synoviumbiopten afkomstig van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier gezonde controles (ACPA-negatief), gebaseerd op de dataset van Platzer et al. (2019). [(dataset)](Bronnen/dataset) De ruwe sequencingdata werden uitgepakt en ingelezen in R.
 
 Eerst werd een referentie-index opgebouwd met behulp van het Rsubread package en het humane referentiegenoom GRCh38 (Homo_sapiens.GRCh38.dna.toplevel_1.fa). De reads werden vervolgens gemapt met de align() functie van Rsubread, waarna de BAM-bestanden werden gesorteerd met Rsamtools. Het tellen van reads per gen werd uitgevoerd met featureCounts(), waarbij gebruik werd gemaakt van de GTF-annotatie (Homo_sapiens.GRCh38.114.gtf).
 
