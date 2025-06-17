@@ -35,5 +35,16 @@ Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ont
 
 ## Resultaten
 
+Door te kijken naar de transcripnomics in R werden er 25.396 genen geanalyseerd. Van de genen vertoonden 1.292 genen een significante expressieverandering (adjusted p-waarde < 0.05). Van deze genen waren er 270 significant verhoogd (log2FoldChange > 1) en 171 significant verlaagd (log2FoldChange < -1). De genen met de sterkste expressieveranderingen toonden een duidelijk onderscheid tussen RA-patiënten en controles.
+
+In de volcano plot (Figuur 1) zijn de resultaten van de differentiële genexpressie-analyse weergegeven. Genen met een hogere expressie in RA-patiënten bevinden zich rechts, terwijl genen met een lagere expressie links staan. De hoogte van de punten geeft de mate van statistische significantie weer. Er waren zowel up- als down-gereguleerde genen met hoge significantie zichtbaar
+
+De Gene Ontology (GO) analyse identificeerde meerdere biologische processen die geassocieerd zijn met RA (Figuur 2). Hieruit kwamen vooral immuun-gerelateerde processen naar voren, zoals leukocyte migration, activation of immune response, adaptive immune response en antibody-dependent cellular cytotoxicity. 
+
+De KEGG pathway-analyse van "Antigen processing and presentation" (hsa04612) liet zien dat meerdere genen binnen dit immuunproces differentieel tot expressie kwamen tussen RA-patiënten en gezonde controles (Figuur 3). Hierbij waren zowel verhoogd als verlaagd tot expressie komende genen zichtbaar.
+
 ## Conclusie
 
+In dit onderzoek werd met behulp van transcriptomics onderzocht welke genen en biologische processen betrokken zijn bij reumatoïde artritis (RA). Analyse van RNA-sequencing data uit synoviumbiopten van RA-patiënten en gezonde controles toonde 1.292 genen met een significante expressieverandering, waarbij zowel op- als neer-regulatie werd waargenomen. Vooral immuun-gerelateerde processen, zoals leukocytenmigratie, activatie van de immuunrespons en antilichaam-afhankelijke cytotoxiciteit, kwamen sterk naar voren. De KEGG pathway-analyse liet zien dat ook het "Antigen processing and presentation" pathway betrokken is, wat aansluit bij de bekende auto-immuunmechanismen bij RA.
+
+Binnen de significant differentieel tot expressie komende genen viel op dat zowel adaptieve als aangeboren immuunprocessen betrokken waren. Hierbij lijken verschillende onderdelen van de antigeenpresentatie, T-celactivatie en ontstekingsregulatie versterkt actief in RA-patiënten. De combinatie van verhoogde expressie van immuunactivatiegenen en verstoring van immuunregulatie wijst op dysregulatie  van het immuunsysteem bij RA.
