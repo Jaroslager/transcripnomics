@@ -4,14 +4,14 @@ Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige 
 
 ## Inhoud
 
-- `data/raw/` – fictionele datasets voor de analyse van spreuk effectiviteit, gevaar en welke spreuken het beste samengaan met verschillende types staf.
-- `data/processed` - verwerkte datasets gegenereerd met scripts 
-- `scripts/` – scripts om prachtige onzin te genereren
-- `resultaten/` - grafieken en tabellen
-- `bronnen/` - gebruikte bronnen 
-- `README.md` - het document om de tekst hier te genereren
-- `assets/` - overige documenten voor de opmaak van deze pagina
-- `data_stewardship/` - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship. 
+- `Bronnen/` – Gebruikte bronnen
+- `Data_RA_raw/` - De verkregen ruwe data van de casus patiënten
+- `Figuren van R/` – De figuren die zijn verkregen uit de R analyse
+- `Output bestanden van R` - De bestanden die zijn verkregen uit de R analyse
+- `CASUS in R` - Het gebruikte script in R 
+- `Overzicht patiënten casus` - Overzicht info van patiënten van de casus in een tabel
+- `README.md` - Het document om de tekst hier te genereren
+
 
 ## Inleiding
 
