@@ -37,6 +37,10 @@ Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ont
 
 Door te kijken naar de transcripnomics in R werden er 25.396 genen geanalyseerd. Van de genen vertoonden 1.292 genen een significante expressieverandering (adjusted p-waarde < 0.05). Van deze genen waren er 270 significant verhoogd (log2FoldChange > 1) en 171 significant verlaagd (log2FoldChange < -1). De genen met de sterkste expressieveranderingen toonden een duidelijk onderscheid tussen RA-patiënten en controles.
 
+<p align="center">
+  <img src="Figuren-van-R/Volcano-plot.png" alt="Volcano plot" width="600"/>
+</p>
+
 In de volcano plot (Figuur 1) zijn de resultaten van de differentiële genexpressie-analyse weergegeven. Genen met een hogere expressie in RA-patiënten bevinden zich rechts, terwijl genen met een lagere expressie links staan. De hoogte van de punten geeft de mate van statistische significantie weer. Er waren zowel up- als down-gereguleerde genen met hoge significantie zichtbaar
 
 De Gene Ontology (GO) analyse identificeerde meerdere biologische processen die geassocieerd zijn met RA (Figuur 2). Hieruit kwamen vooral immuun-gerelateerde processen naar voren, zoals leukocyte migration, activation of immune response, adaptive immune response en antibody-dependent cellular cytotoxicity. 
