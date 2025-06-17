@@ -7,7 +7,7 @@ Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige 
 - `Bronnen/` – Gebruikte bronnen
 - `Data_RA_raw/` - De verkregen ruwe data van de casus patiënten
 - `Figuren van R/` – De figuren die zijn verkregen uit de R analyse
-- `Output bestanden van R` - De bestanden die zijn verkregen uit de R analyse
+- `Output bestanden van R/` - De bestanden die zijn verkregen uit de R analyse
 - `CASUS in R` - Het gebruikte script in R 
 - `Overzicht patiënten casus` - Overzicht info van patiënten van de casus in een tabel
 - `README.md` - Het document om de tekst hier te genereren
@@ -15,7 +15,7 @@ Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige 
 
 ## Inleiding
 
-Reumatoïde artritis (RA) is een chronische, auto-immuunziekte die ontsteking veroorzaakt in gewrichten en kan leiden tot kraakbeen- en botbeschadiging. Symptomen zijn onder andere pijn, stijfheid en zwelling, met name bij seropositieve patiënten die auto-antilichamen zoals reumafactor (RF) en anti-CCP hebben. Seropositiviteit onderstreept het auto-immuunkarakter, maar verklaart niet volledig waarom RA ontstaat.
+Reumatoïde artritis (RA) is een chronische, auto-immuunziekte die ontsteking veroorzaakt in gewrichten en kan leiden tot kraakbeen- en botbeschadiging. Symptomen zijn onder andere pijn, stijfheid en zwelling, met name bij seropositieve patiënten die auto-antilichamen zoals reumafactor (RF) en anti-CCP hebben. Seropositiviteit onderstreept het auto-immuunkarakter, maar verklaart niet volledig waarom RA ontstaat. [Firestein, G. S. & McInnes, I.B. (2017)](Bronnen/Firestein, G. S., & McInnes, I. B. (2017). Immunopathogenesis of rheumatoid arthritis.pdf)
 
 Genetische factoren spelen een belangrijke rol bij het ontstaan van RA. Erfelijkheid heeft invloed op het risico om de ziekte te ontwikkelen, waarbij bij seropositieve RA genetische aanleg vaak een grotere rol speelt dan bij seronegatieve RA. Daarnaast kunnen omgevingsfactoren, zoals roken, infecties en blootstelling aan chemische stoffen, het risico verhogen door het immuunsysteem te beïnvloeden.
 
