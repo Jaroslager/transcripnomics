@@ -26,13 +26,13 @@ Om meer kennis over RA te ontwikkelen en uiteindelijk tot vroegere diagnose en b
 
 ## Methode
 
-In dit onderzoek werden RNA-seq data geanalyseerd van synoviumbiopten afkomstig van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier gezonde controles (ACPA-negatief), gebaseerd op de dataset van Platzer et al. (2019). [(dataset)](Bronnen/dataset) De ruwe sequencingdata werden uitgepakt en ingelezen in R.
+In dit onderzoek werd RNA-seq data geanalyseerd van synoviumbiopten afkomstig van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier gezonde controles (ACPA-negatief), gebaseerd op de dataset van Platzer et al. (2019). [(dataset)](Bronnen/dataset) De ruwe sequencingdata werd uitgepakt en ingelezen in R.
 
-Eerst werd een referentie-index opgebouwd met behulp van het Rsubread package en het humane referentiegenoom GRCh38 (Homo_sapiens.GRCh38.dna.toplevel_1.fa). De reads werden vervolgens gemapt met de align() functie van Rsubread, waarna de BAM-bestanden werden gesorteerd met Rsamtools. Het tellen van reads per gen werd uitgevoerd met featureCounts(), waarbij gebruik werd gemaakt van de GTF-annotatie (Homo_sapiens.GRCh38.114.gtf).
+Eerst werd een referentie-index opgebouwd met behulp van het Rsubread (2.20.0) package en het humane referentiegenoom GRCh38 (Homo_sapiens.GRCh38.dna.toplevel_1.fa). De reads werden vervolgens gemapt met de align() functie van Rsubread, waarna de BAM-bestanden werden gesorteerd met Rsamtools (2.22.0). Het tellen van reads per gen werd uitgevoerd met featureCounts(), waarbij gebruik werd gemaakt van de GTF-annotatie (Homo_sapiens.GRCh38.114.gtf).
 
-Voor de differentiële genexpressieanalyse werd het DESeq2 package toegepast. Genen met een significante adjusted p-waarde < 0.05 en een absolute log2 fold change ≥ 1 werden verder onderzocht. Visualisatie van de resultaten werd gedaan met het EnhancedVolcano package.
+Voor de differentiële genexpressieanalyse werd het DESeq2 (1.46.0) package toegepast. Genen met een significante adjusted p-waarde < 0.05 en een absolute log2 fold change ≥ 1 werden verder onderzocht. Visualisatie van de resultaten werd gedaan met het EnhancedVolcano (1.24.0) package.
 
-Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ontology (GO) analyse met het goseq package. Tot slot werd KEGG pathway-analyse uitgevoerd met behulp van het pathview package, waarbij specifiek pathway hsa04612 (Antigen processing and presentation) werd gevisualiseerd.
+Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ontology (GO) analyse met het goseq (1.58.0) package. Tot slot werd KEGG pathway-analyse uitgevoerd met behulp van het pathview (1.46.0) package, waarbij specifiek pathway hsa04612 (Antigen processing and presentation) werd gevisualiseerd.
 
 <p align="center">
   <img src="flowschema .png" alt="flowschema" width="600"/> <p> 
@@ -62,6 +62,6 @@ De KEGG pathway-analyse van "Antigen processing and presentation" (hsa04612) lie
 
 ## Conclusie
 
-In dit onderzoek werd met behulp van transcriptomics onderzocht welke genen en biologische processen betrokken zijn bij reumatoïde artritis (RA). Analyse van RNA-sequencing data uit synoviumbiopten van RA-patiënten en gezonde controles toonde 1.292 genen met een significante expressieverandering, waarbij zowel op- als neer-regulatie werd waargenomen. Vooral immuun-gerelateerde processen, zoals leukocytenmigratie, activatie van de immuunrespons en antilichaam-afhankelijke cytotoxiciteit, kwamen sterk naar voren. De KEGG pathway-analyse liet zien dat ook het "Antigen processing and presentation" pathway betrokken is, wat aansluit bij de bekende auto-immuunmechanismen bij RA.
+In dit onderzoek werd met behulp van transcriptomics onderzocht welke genen en biologische processen betrokken zijn bij RA. Analyse van RNA-sequencing data uit synoviumbiopten van RA-patiënten en gezonde controles toonde 1.292 genen met een significante expressieverandering, waarbij zowel op- als neer-regulatie werd waargenomen. Vooral immuun-gerelateerde processen, zoals leukocytenmigratie, activatie van de immuunrespons en antilichaam-afhankelijke cytotoxiciteit, kwamen sterk naar voren. De KEGG pathway-analyse liet zien dat ook het "Antigen processing and presentation" pathway betrokken is, wat aansluit bij de bekende auto-immuunmechanismen bij RA.
 
 Binnen de significant differentieel tot expressie komende genen viel op dat zowel adaptieve als aangeboren immuunprocessen betrokken waren. Hierbij lijken verschillende onderdelen van de antigeenpresentatie, T-celactivatie en ontstekingsregulatie versterkt actief in RA-patiënten. De combinatie van verhoogde expressie van immuunactivatiegenen en verstoring van immuunregulatie wijst op dysregulatie  van het immuunsysteem bij RA.
