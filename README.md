@@ -11,6 +11,7 @@ Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige 
 - `CASUS in R` - Het gebruikte script in R 
 - `Overzicht patiënten casus` - Overzicht info van patiënten van de casus in een tabel
 - `README.md` - Het document om de tekst hier te genereren
+- `flowschema` - Een flowschema van de gebruikte methode
 
 
 ## Inleiding
