@@ -33,24 +33,28 @@ Voor de differentiële genexpressieanalyse werd het DESeq2 package toegepast. Ge
 
 Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ontology (GO) analyse met het goseq package. Tot slot werd KEGG pathway-analyse uitgevoerd met behulp van het pathview package, waarbij specifiek pathway hsa04612 (Antigen processing and presentation) werd gevisualiseerd.
 
+<p align="center">
+  <img src="flowschema.png" alt="flowschema" width="400"/> <p> 
+</p>
+
 ## Resultaten
 
 Door te kijken naar de transcripnomics in R werden er 25.396 genen geanalyseerd. Van de genen vertoonden 1.292 genen een significante expressieverandering (adjusted p-waarde < 0.05). Van deze genen waren er 270 significant verhoogd (log2FoldChange > 1) en 171 significant verlaagd (log2FoldChange < -1). De genen met de sterkste expressieveranderingen toonden een duidelijk onderscheid tussen RA-patiënten en controles.
 
 <p align="center">
-  <img src="Figuren van R/Volcano plot.png" alt="Volcano plot" width="400"/> <p>Figuur 1: Volcano plot, een differentiële genexpressie-analyse
+  <img src="Figuren van R/Volcano plot.png" alt="Volcano plot" width="400"/> <p> Figuur 1 : Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De x-as toont de log2 fold change en de y-as de –log10 van de adjusted p-waarde. Genen rechts zijn significant verhoogd tot expressie, genen links verlaagd. Kleuren geven significante regulatie aan (padj < 0.05).
 </p>
 
 In de volcano plot (Figuur 1) zijn de resultaten van de differentiële genexpressie-analyse weergegeven. Genen met een hogere expressie in RA-patiënten bevinden zich rechts, terwijl genen met een lagere expressie links staan. De hoogte van de punten geeft de mate van statistische significantie weer. Er waren zowel up- als down-gereguleerde genen met hoge significantie zichtbaar
 
 <p align="center">
-  <img src="Figuren van R/GO analyse enrichment analyse.png" alt="GO analyse" width="400"/> <p>Figuur 2: GO-analyse 
+  <img src="Figuren van R/GO analyse enrichment analyse.png" alt="GO analyse" width="400"/> <p>Figuur 2 : Bubble plot van de top 15 verrijkte Gene Ontology (GO) termen. De x-as geeft de –log10 van de p-waarde weer, de y-as toont de GO-termen. Puntgrootte geeft het aantal betrokken genen aan, kleur representeert het type ontologie (BP, CC of MF).
 </p>
 
 De Gene Ontology (GO) analyse identificeerde meerdere biologische processen die geassocieerd zijn met RA (Figuur 2). Hieruit kwamen vooral immuun-gerelateerde processen naar voren, zoals leukocyte migration, activation of immune response, adaptive immune response en antibody-dependent cellular cytotoxicity. 
 
 <p align="center">
-  <img src="Figuren van R/hsa04612.pathview.png" alt="KEGG pathview analyse" width="400"/> <p>Figuur 3: KEGG pathway analyse 
+  <img src="Figuren van R/hsa04612.pathview.png" alt="KEGG pathview analyse" width="400"/> <p>Figuur 3 : KEGG pathway-visualisatie van "Antigen processing and presentation" (hsa04612). Rood gemarkeerde genen zijn verhoogd tot expressie bij RA, groen verlaagd. Dit pathway speelt een centrale rol in de presentatie van antigenen aan het immuunsysteem. 
 </p>
 
 De KEGG pathway-analyse van "Antigen processing and presentation" (hsa04612) liet zien dat meerdere genen binnen dit immuunproces differentieel tot expressie kwamen tussen RA-patiënten en gezonde controles (Figuur 3). Hierbij waren zowel verhoogd als verlaagd tot expressie komende genen zichtbaar.
