@@ -34,7 +34,7 @@ Voor de differentiële genexpressieanalyse werd het DESeq2 package toegepast. Ge
 Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ontology (GO) analyse met het goseq package. Tot slot werd KEGG pathway-analyse uitgevoerd met behulp van het pathview package, waarbij specifiek pathway hsa04612 (Antigen processing and presentation) werd gevisualiseerd.
 
 <p align="center">
-  <img src="flowschema .png" alt="flowschema" width="400"/> <p> 
+  <img src="flowschema .png" alt="flowschema" width="600"/> <p> 
 </p>
 
 ## Resultaten
