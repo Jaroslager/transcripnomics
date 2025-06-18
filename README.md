@@ -20,7 +20,7 @@ Reumatoïde artritis (RA) is een chronische, auto-immuunziekte die ontsteking ve
 
 Genetische factoren spelen een belangrijke rol bij het ontstaan van RA. Erfelijkheid heeft invloed op het risico om de ziekte te ontwikkelen, waarbij bij seropositieve RA genetische aanleg vaak een grotere rol speelt dan bij seronegatieve RA. Daarnaast kunnen omgevingsfactoren, zoals roken, infecties en blootstelling aan chemische stoffen, het risico verhogen door het immuunsysteem te beïnvloeden. [(bron.)](Bronnen/Genetics-of-rheumatiod-arthritis.pdf)
 
-Een vroege diagnose is essentieel om blijvende gewrichtsschade te voorkomen, maar huidige methoden herkennen vaak pas ontsteking als deze al sterk aanwezig is. Behandeling richt zich op het onderdrukken van symptomen en ontsteking, maar biedt geen genezing. [(bron.)](Bronnen/Management-of-RA-An-overview .pdf)
+Een vroege diagnose is essentieel om blijvende gewrichtsschade te voorkomen, maar huidige methoden herkennen vaak pas ontsteking als deze al sterk aanwezig is. Behandeling richt zich op het onderdrukken van symptomen en ontsteking, maar biedt geen genezing. [(bron.)](Bronnen/Management-of-RA-An-overview.pdf)
 
 Om meer kennis over RA te ontwikkelen en uiteindelijk tot vroegere diagnose en behandeling te komen wordt er transcriptomics in dit onderzoek. Hiermee wordt bepaald welke genen afwijkend tot expressie komen bij RA-patiënten en welke metabole routes anders functioneren.
 
