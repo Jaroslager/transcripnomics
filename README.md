@@ -40,7 +40,7 @@ Vervolgens werden de significant gereguleerde genen onderworpen aan een Gene Ont
 
 ## Resultaten
 
-Door te kijken naar de transcripnomics in R werden er 25.396 genen geanalyseerd. Van de genen vertoonden 1.292 genen een significante expressieverandering (adjusted p-waarde < 0.05). Van deze genen waren er 270 significant verhoogd (log2FoldChange > 1) en 171 significant verlaagd (log2FoldChange < -1). De genen met de sterkste expressieveranderingen toonden een duidelijk onderscheid tussen RA-patiënten en controles.
+Door te kijken naar de transcripnomics in R werden er 29.407 genen geanalyseerd. Van de genen vertoonden 1.292 genen een significante expressieverandering (adjusted p-waarde < 0.05). Van deze genen waren er 270 significant verhoogd (log2FoldChange > 1) en 171 significant verlaagd (log2FoldChange < -1). De genen met de sterkste expressieveranderingen toonden een duidelijk onderscheid tussen RA-patiënten en controles.
 
 <p align="center">
   <img src="Figuren van R/Volcano plot.png" alt="Volcano plot" width="500"/> <p> Figuur 1 : Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De x-as toont de log2 fold change en de y-as de –log10 van de adjusted p-waarde. Genen rechts zijn significant verhoogd tot expressie, genen links verlaagd. Kleuren geven significante regulatie aan (padj < 0.05).
