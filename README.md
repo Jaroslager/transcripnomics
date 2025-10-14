@@ -14,6 +14,9 @@ Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige 
 - `README.md` - Het document om de tekst hier te genereren
 - `flowschema` - Een flowschema van de gebruikte methode
 
+## Gebruik van GitHub
+
+Deze GitHub-repository bevat alle data, R-scripts en resultaten die zijn verkregen binnen het transcriptomics-project. De mappenstructuur is zo opgezet dat er een duidelijk onderscheid wordt gemaakt tussen de verschillende onderdelen: ruwe data, outputbestanden, figuren, bronnen en een flowschema. Alle analysecodes zijn vastgelegd in een R-script, inclusief de gebruikte R-pakketten en referentiebestanden. Dit maakt het mogelijk om elke stap te reproduceren. Daarnaast biedt het READ.md bestand een samenvatting van de achtergrond van het project, de toegepaste methoden en de belangrijkste resultaten. Dit biedt transparantie en reproduceerbaarheid en functioneert hierdoor ook als handleiding voor onderzoekers die verder willen kijken naar dit project.
 
 ## Inleiding
 
