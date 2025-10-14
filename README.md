@@ -1,4 +1,5 @@
-# Project transcripnomics J2P4 - Jasmijn Slager - BM2B
+# Transcriptomics analyse toont immuun-gerelateerde veranderingen in genregulatie bij reumatoïde artritis
+## Project transcripnomics J2P4 - Jasmijn Slager - BM2B
 Transcriptomics inzetten om genetische aanwijzingen te vinden voor vroegtijdige herkenning van reumatoïde artritis
 
 
